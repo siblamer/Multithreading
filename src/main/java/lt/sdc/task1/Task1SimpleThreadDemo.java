@@ -15,7 +15,7 @@ public class Task1SimpleThreadDemo extends Thread {
         Path path = Paths.get(ClassLoader.getSystemResource("task1_input.txt").toURI());
         List<String> lines = Files.readAllLines(path);
 
-        System.out.println(lines);
+        logger.info(lines);
         int n = Integer.parseInt(lines.get(0));
 
         ParentThread parentThread = new ParentThread(100);

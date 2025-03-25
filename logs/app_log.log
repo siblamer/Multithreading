@@ -290,3 +290,66 @@
 17:55:39 [Thread-0] INFO  5
 17:55:39 [Thread-1] INFO  5
 17:55:39 [Thread-4] INFO  5
+18:10:13 [pool-2-thread-1] INFO  Producer switched state to: false
+18:10:14 [pool-2-thread-1] INFO  Producer switched state to: true
+18:10:14 [pool-2-thread-2] INFO  Consumer countdown: 5000 ms
+18:10:14 [pool-2-thread-2] INFO  Consumer countdown: 4900 ms
+18:10:14 [pool-2-thread-2] INFO  Consumer countdown: 4800 ms
+18:10:15 [pool-2-thread-2] INFO  Consumer countdown: 4700 ms
+18:10:15 [pool-2-thread-2] INFO  Consumer countdown: 4600 ms
+18:10:15 [pool-2-thread-2] INFO  Consumer countdown: 4500 ms
+18:10:15 [pool-2-thread-2] INFO  Consumer countdown: 4400 ms
+18:10:15 [pool-2-thread-2] INFO  Consumer countdown: 4300 ms
+18:10:15 [pool-2-thread-2] INFO  Consumer countdown: 4200 ms
+18:10:15 [pool-2-thread-2] INFO  Consumer countdown: 4100 ms
+18:10:15 [pool-2-thread-1] INFO  Producer switched state to: false
+18:10:16 [pool-2-thread-1] INFO  Producer switched state to: true
+18:10:16 [pool-2-thread-2] INFO  Consumer countdown: 4000 ms
+18:10:16 [pool-2-thread-2] INFO  Consumer countdown: 3900 ms
+18:10:16 [pool-2-thread-2] INFO  Consumer countdown: 3800 ms
+18:10:16 [pool-2-thread-2] INFO  Consumer countdown: 3700 ms
+18:10:17 [pool-2-thread-2] INFO  Consumer countdown: 3600 ms
+18:10:17 [pool-2-thread-2] INFO  Consumer countdown: 3500 ms
+18:10:17 [pool-2-thread-2] INFO  Consumer countdown: 3400 ms
+18:10:17 [pool-2-thread-2] INFO  Consumer countdown: 3300 ms
+18:10:17 [pool-2-thread-2] INFO  Consumer countdown: 3200 ms
+18:10:17 [pool-2-thread-2] INFO  Consumer countdown: 3100 ms
+18:10:17 [pool-2-thread-1] INFO  Producer switched state to: false
+18:10:18 [pool-2-thread-1] INFO  Producer switched state to: true
+18:10:18 [pool-2-thread-2] INFO  Consumer countdown: 3000 ms
+18:10:18 [pool-2-thread-2] INFO  Consumer countdown: 2900 ms
+18:10:18 [pool-2-thread-2] INFO  Consumer countdown: 2800 ms
+18:10:18 [pool-2-thread-2] INFO  Consumer countdown: 2700 ms
+18:10:19 [pool-2-thread-2] INFO  Consumer countdown: 2600 ms
+18:10:19 [pool-2-thread-2] INFO  Consumer countdown: 2500 ms
+18:10:19 [pool-2-thread-2] INFO  Consumer countdown: 2400 ms
+18:10:19 [pool-2-thread-2] INFO  Consumer countdown: 2300 ms
+18:10:19 [pool-2-thread-2] INFO  Consumer countdown: 2200 ms
+18:10:19 [pool-2-thread-2] INFO  Consumer countdown: 2100 ms
+18:10:19 [pool-2-thread-1] INFO  Producer switched state to: false
+18:10:20 [pool-2-thread-1] INFO  Producer switched state to: true
+18:10:20 [pool-2-thread-2] INFO  Consumer countdown: 2000 ms
+18:10:20 [pool-2-thread-2] INFO  Consumer countdown: 1900 ms
+18:10:20 [pool-2-thread-2] INFO  Consumer countdown: 1800 ms
+18:10:20 [pool-2-thread-2] INFO  Consumer countdown: 1700 ms
+18:10:21 [pool-2-thread-2] INFO  Consumer countdown: 1600 ms
+18:10:21 [pool-2-thread-2] INFO  Consumer countdown: 1500 ms
+18:10:21 [pool-2-thread-2] INFO  Consumer countdown: 1400 ms
+18:10:21 [pool-2-thread-2] INFO  Consumer countdown: 1300 ms
+18:10:21 [pool-2-thread-2] INFO  Consumer countdown: 1200 ms
+18:10:21 [pool-2-thread-2] INFO  Consumer countdown: 1100 ms
+18:10:21 [pool-2-thread-1] INFO  Producer switched state to: false
+18:10:22 [pool-2-thread-1] INFO  Producer switched state to: true
+18:10:22 [pool-2-thread-2] INFO  Consumer countdown: 1000 ms
+18:10:22 [pool-2-thread-2] INFO  Consumer countdown: 900 ms
+18:10:22 [pool-2-thread-2] INFO  Consumer countdown: 800 ms
+18:10:22 [pool-2-thread-2] INFO  Consumer countdown: 700 ms
+18:10:23 [pool-2-thread-2] INFO  Consumer countdown: 600 ms
+18:10:23 [pool-2-thread-2] INFO  Consumer countdown: 500 ms
+18:10:23 [pool-2-thread-2] INFO  Consumer countdown: 400 ms
+18:10:23 [pool-2-thread-2] INFO  Consumer countdown: 300 ms
+18:10:23 [pool-2-thread-2] INFO  Consumer countdown: 200 ms
+18:10:23 [pool-2-thread-2] INFO  Consumer countdown: 100 ms
+18:10:23 [pool-2-thread-1] INFO  Producer switched state to: false
+18:10:23 [pool-2-thread-1] WARN  Producer interrupted
+18:10:23 [pool-2-thread-2] INFO  Countdown complete. Consumer and Producer terminated.
