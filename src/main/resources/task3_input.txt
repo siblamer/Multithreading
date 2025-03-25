@@ -1,4 +1,1 @@
-Hello from thread A
-Greetings from thread B
-Bonjour from thread C
-Hola from thread D
+4

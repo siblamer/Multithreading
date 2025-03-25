@@ -1,4 +1,4 @@
-package lt.sdc.task1;
+package lt.sdc.task8;
 
 import java.util.concurrent.TimeUnit;
 
@@ -37,15 +37,14 @@ public class YieldThreadDemo {
 
         @Override
         public void run() {
-            long threadStartTime = System.currentTimeMillis(); // Фиксируем время старта потока
-            long elapsedSinceMainStart = threadStartTime - startTime; // Разница между созданием потока и его запуском
+            long threadStartTime = System.currentTimeMillis();
+            long elapsedSinceMainStart = threadStartTime - startTime;
 
             System.out.println(threadName + " started after " + elapsedSinceMainStart + " ms");
 
             for (int i = 0; i < 5; i++) {
                 System.out.println(threadName + " is executing step " + i);
 
-                // Уступаем процессор другим потокам
                 Thread.yield();
 
                 try {
@@ -55,9 +54,8 @@ public class YieldThreadDemo {
                 }
             }
 
-            long endTime = System.currentTimeMillis(); // Фиксируем время завершения потока
-            long executionTime = endTime - threadStartTime; // Вычисляем, сколько времени заняло выполнение
-
+            long endTime = System.currentTimeMillis();
+            long executionTime = endTime - threadStartTime;
             System.out.println(threadName + " finished! Execution time: " + executionTime + " ms");
         }
     }

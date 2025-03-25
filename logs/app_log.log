@@ -1,0 +1,292 @@
+12:50:58 [Thread-0] INFO  Child thread line: 1
+12:50:59 [Thread-0] INFO  Child thread line: 2
+12:50:59 [Thread-0] INFO  Child thread line: 3
+12:50:59 [Thread-0] INFO  Child thread line: 4
+12:51:00 [main] INFO  Main thread line: 1
+12:51:00 [main] INFO  Main thread line: 2
+12:51:00 [main] INFO  Main thread line: 3
+12:51:01 [main] INFO  Main thread line: 4
+12:51:01 [main] INFO  Main thread finished after child.
+12:51:40 [pool-2-thread-1] INFO  Producer switched state to: false
+12:51:41 [pool-2-thread-1] INFO  Producer switched state to: true
+12:51:41 [pool-2-thread-2] INFO  Consumer countdown: 5000 ms
+12:51:41 [pool-2-thread-2] INFO  Consumer countdown: 4900 ms
+12:51:41 [pool-2-thread-2] INFO  Consumer countdown: 4800 ms
+12:51:42 [pool-2-thread-2] INFO  Consumer countdown: 4700 ms
+12:51:42 [pool-2-thread-2] INFO  Consumer countdown: 4600 ms
+12:51:42 [pool-2-thread-2] INFO  Consumer countdown: 4500 ms
+12:51:42 [pool-2-thread-2] INFO  Consumer countdown: 4400 ms
+12:51:42 [pool-2-thread-2] INFO  Consumer countdown: 4300 ms
+12:51:42 [pool-2-thread-2] INFO  Consumer countdown: 4200 ms
+12:51:42 [pool-2-thread-1] INFO  Producer switched state to: false
+12:51:43 [pool-2-thread-1] INFO  Producer switched state to: true
+12:51:43 [pool-2-thread-2] INFO  Consumer countdown: 4100 ms
+12:51:43 [pool-2-thread-2] INFO  Consumer countdown: 4000 ms
+12:51:43 [pool-2-thread-2] INFO  Consumer countdown: 3900 ms
+12:51:43 [pool-2-thread-2] INFO  Consumer countdown: 3800 ms
+12:51:44 [pool-2-thread-2] INFO  Consumer countdown: 3700 ms
+12:51:44 [pool-2-thread-2] INFO  Consumer countdown: 3600 ms
+12:51:44 [pool-2-thread-2] INFO  Consumer countdown: 3500 ms
+12:51:44 [pool-2-thread-2] INFO  Consumer countdown: 3400 ms
+12:51:44 [pool-2-thread-2] INFO  Consumer countdown: 3300 ms
+12:51:44 [pool-2-thread-2] INFO  Consumer countdown: 3200 ms
+12:51:44 [pool-2-thread-1] INFO  Producer switched state to: false
+12:51:45 [pool-2-thread-1] INFO  Producer switched state to: true
+12:51:45 [pool-2-thread-2] INFO  Consumer countdown: 3100 ms
+12:51:45 [pool-2-thread-2] INFO  Consumer countdown: 3000 ms
+12:51:45 [pool-2-thread-2] INFO  Consumer countdown: 2900 ms
+12:51:45 [pool-2-thread-2] INFO  Consumer countdown: 2800 ms
+12:51:46 [pool-2-thread-2] INFO  Consumer countdown: 2700 ms
+12:51:46 [pool-2-thread-2] INFO  Consumer countdown: 2600 ms
+12:51:46 [pool-2-thread-2] INFO  Consumer countdown: 2500 ms
+12:51:46 [pool-2-thread-2] INFO  Consumer countdown: 2400 ms
+12:51:46 [pool-2-thread-2] INFO  Consumer countdown: 2300 ms
+12:51:46 [pool-2-thread-2] INFO  Consumer countdown: 2200 ms
+12:51:46 [pool-2-thread-1] INFO  Producer switched state to: false
+12:51:47 [pool-2-thread-1] INFO  Producer switched state to: true
+12:51:47 [pool-2-thread-2] INFO  Consumer countdown: 2100 ms
+12:51:47 [pool-2-thread-2] INFO  Consumer countdown: 2000 ms
+12:51:47 [pool-2-thread-2] INFO  Consumer countdown: 1900 ms
+12:51:47 [pool-2-thread-2] INFO  Consumer countdown: 1800 ms
+12:51:48 [pool-2-thread-2] INFO  Consumer countdown: 1700 ms
+12:51:48 [pool-2-thread-2] INFO  Consumer countdown: 1600 ms
+12:51:48 [pool-2-thread-2] INFO  Consumer countdown: 1500 ms
+12:51:48 [pool-2-thread-2] INFO  Consumer countdown: 1400 ms
+12:51:48 [pool-2-thread-2] INFO  Consumer countdown: 1300 ms
+12:51:48 [pool-2-thread-2] INFO  Consumer countdown: 1200 ms
+12:51:48 [pool-2-thread-1] INFO  Producer switched state to: false
+12:51:49 [pool-2-thread-1] INFO  Producer switched state to: true
+12:51:49 [pool-2-thread-2] INFO  Consumer countdown: 1100 ms
+12:51:49 [pool-2-thread-2] INFO  Consumer countdown: 1000 ms
+12:51:49 [pool-2-thread-2] INFO  Consumer countdown: 900 ms
+12:51:49 [pool-2-thread-2] INFO  Consumer countdown: 800 ms
+12:51:50 [pool-2-thread-2] INFO  Consumer countdown: 700 ms
+12:51:50 [pool-2-thread-2] INFO  Consumer countdown: 600 ms
+12:51:50 [pool-2-thread-2] INFO  Consumer countdown: 500 ms
+12:51:50 [pool-2-thread-2] INFO  Consumer countdown: 400 ms
+12:51:50 [pool-2-thread-2] INFO  Consumer countdown: 300 ms
+12:51:50 [pool-2-thread-2] INFO  Consumer countdown: 200 ms
+12:51:50 [pool-2-thread-1] INFO  Producer switched state to: false
+12:51:51 [pool-2-thread-1] INFO  Producer switched state to: true
+12:51:51 [pool-2-thread-2] INFO  Consumer countdown: 100 ms
+12:51:51 [pool-2-thread-1] WARN  Producer interrupted
+12:51:51 [pool-2-thread-2] INFO  Countdown complete. Consumer and Producer terminated.
+17:47:38 [Thread-0] INFO  Parent-Thread  0
+17:47:38 [Thread-2] INFO  ChildThread  0
+17:47:38 [Thread-0] INFO  Parent-Thread  1
+17:47:38 [Thread-2] INFO  ChildThread  1
+17:47:38 [Thread-0] INFO  Parent-Thread  2
+17:47:38 [Thread-2] INFO  ChildThread  2
+17:47:38 [Thread-0] INFO  Parent-Thread  3
+17:47:38 [Thread-2] INFO  ChildThread  3
+17:47:38 [Thread-0] INFO  Parent-Thread  4
+17:47:38 [Thread-2] INFO  ChildThread  4
+17:47:38 [Thread-0] INFO  Parent-Thread  5
+17:47:38 [Thread-2] INFO  ChildThread  5
+17:47:38 [Thread-0] INFO  Parent-Thread  6
+17:47:38 [Thread-2] INFO  ChildThread  6
+17:47:38 [Thread-0] INFO  Parent-Thread  7
+17:47:38 [Thread-2] INFO  ChildThread  7
+17:47:38 [Thread-0] INFO  Parent-Thread  8
+17:47:38 [Thread-2] INFO  ChildThread  8
+17:47:38 [Thread-0] INFO  Parent-Thread  9
+17:47:38 [Thread-2] INFO  ChildThread  9
+17:47:38 [Thread-0] INFO  Parent-Thread  10
+17:47:38 [Thread-2] INFO  ChildThread  10
+17:47:38 [Thread-0] INFO  Parent-Thread  11
+17:47:38 [Thread-2] INFO  ChildThread  11
+17:47:38 [Thread-0] INFO  Parent-Thread  12
+17:47:38 [Thread-2] INFO  ChildThread  12
+17:47:38 [Thread-0] INFO  Parent-Thread  13
+17:47:38 [Thread-2] INFO  ChildThread  13
+17:47:38 [Thread-0] INFO  Parent-Thread  14
+17:47:38 [Thread-2] INFO  ChildThread  14
+17:47:38 [Thread-0] INFO  Parent-Thread  15
+17:47:38 [Thread-2] INFO  ChildThread  15
+17:47:38 [Thread-0] INFO  Parent-Thread  16
+17:47:38 [Thread-2] INFO  ChildThread  16
+17:47:38 [Thread-0] INFO  Parent-Thread  17
+17:47:38 [Thread-2] INFO  ChildThread  17
+17:47:38 [Thread-0] INFO  Parent-Thread  18
+17:47:38 [Thread-2] INFO  ChildThread  18
+17:47:38 [Thread-0] INFO  Parent-Thread  19
+17:47:38 [Thread-2] INFO  ChildThread  19
+17:47:38 [Thread-0] INFO  Parent-Thread  20
+17:47:38 [Thread-2] INFO  ChildThread  20
+17:47:38 [Thread-0] INFO  Parent-Thread  21
+17:47:38 [Thread-2] INFO  ChildThread  21
+17:47:38 [Thread-0] INFO  Parent-Thread  22
+17:47:38 [Thread-2] INFO  ChildThread  22
+17:47:38 [Thread-0] INFO  Parent-Thread  23
+17:47:38 [Thread-2] INFO  ChildThread  23
+17:47:38 [Thread-0] INFO  Parent-Thread  24
+17:47:38 [Thread-2] INFO  ChildThread  24
+17:47:38 [Thread-0] INFO  Parent-Thread  25
+17:47:38 [Thread-2] INFO  ChildThread  25
+17:47:38 [Thread-0] INFO  Parent-Thread  26
+17:47:38 [Thread-2] INFO  ChildThread  26
+17:47:38 [Thread-0] INFO  Parent-Thread  27
+17:47:38 [Thread-2] INFO  ChildThread  27
+17:47:38 [Thread-0] INFO  Parent-Thread  28
+17:47:38 [Thread-2] INFO  ChildThread  28
+17:47:38 [Thread-0] INFO  Parent-Thread  29
+17:47:38 [Thread-2] INFO  ChildThread  29
+17:47:38 [Thread-0] INFO  Parent-Thread  30
+17:47:38 [Thread-2] INFO  ChildThread  30
+17:47:38 [Thread-0] INFO  Parent-Thread  31
+17:47:38 [Thread-2] INFO  ChildThread  31
+17:47:38 [Thread-0] INFO  Parent-Thread  32
+17:47:38 [Thread-2] INFO  ChildThread  32
+17:47:38 [Thread-0] INFO  Parent-Thread  33
+17:47:38 [Thread-2] INFO  ChildThread  33
+17:47:38 [Thread-0] INFO  Parent-Thread  34
+17:47:38 [Thread-2] INFO  ChildThread  34
+17:47:38 [Thread-0] INFO  Parent-Thread  35
+17:47:38 [Thread-2] INFO  ChildThread  35
+17:47:38 [Thread-0] INFO  Parent-Thread  36
+17:47:38 [Thread-2] INFO  ChildThread  36
+17:47:38 [Thread-0] INFO  Parent-Thread  37
+17:47:38 [Thread-0] INFO  Parent-Thread  38
+17:47:38 [Thread-2] INFO  ChildThread  37
+17:47:38 [Thread-0] INFO  Parent-Thread  39
+17:47:38 [Thread-2] INFO  ChildThread  38
+17:47:38 [Thread-2] INFO  ChildThread  39
+17:47:38 [Thread-0] INFO  Parent-Thread  40
+17:47:38 [Thread-2] INFO  ChildThread  40
+17:47:38 [Thread-0] INFO  Parent-Thread  41
+17:47:38 [Thread-2] INFO  ChildThread  41
+17:47:38 [Thread-0] INFO  Parent-Thread  42
+17:47:38 [Thread-2] INFO  ChildThread  42
+17:47:38 [Thread-0] INFO  Parent-Thread  43
+17:47:38 [Thread-2] INFO  ChildThread  43
+17:47:38 [Thread-0] INFO  Parent-Thread  44
+17:47:38 [Thread-2] INFO  ChildThread  44
+17:47:38 [Thread-0] INFO  Parent-Thread  45
+17:47:38 [Thread-2] INFO  ChildThread  45
+17:47:38 [Thread-0] INFO  Parent-Thread  46
+17:47:38 [Thread-2] INFO  ChildThread  46
+17:47:38 [Thread-0] INFO  Parent-Thread  47
+17:47:38 [Thread-2] INFO  ChildThread  47
+17:47:38 [Thread-0] INFO  Parent-Thread  48
+17:47:38 [Thread-2] INFO  ChildThread  48
+17:47:38 [Thread-0] INFO  Parent-Thread  49
+17:47:38 [Thread-2] INFO  ChildThread  49
+17:47:38 [Thread-0] INFO  Parent-Thread  50
+17:47:38 [Thread-2] INFO  ChildThread  50
+17:47:38 [Thread-0] INFO  Parent-Thread  51
+17:47:38 [Thread-2] INFO  ChildThread  51
+17:47:38 [Thread-0] INFO  Parent-Thread  52
+17:47:38 [Thread-2] INFO  ChildThread  52
+17:47:38 [Thread-2] INFO  ChildThread  53
+17:47:38 [Thread-0] INFO  Parent-Thread  53
+17:47:38 [Thread-2] INFO  ChildThread  54
+17:47:38 [Thread-0] INFO  Parent-Thread  54
+17:47:38 [Thread-2] INFO  ChildThread  55
+17:47:38 [Thread-0] INFO  Parent-Thread  55
+17:47:38 [Thread-2] INFO  ChildThread  56
+17:47:38 [Thread-0] INFO  Parent-Thread  56
+17:47:38 [Thread-2] INFO  ChildThread  57
+17:47:38 [Thread-0] INFO  Parent-Thread  57
+17:47:38 [Thread-2] INFO  ChildThread  58
+17:47:38 [Thread-0] INFO  Parent-Thread  58
+17:47:38 [Thread-2] INFO  ChildThread  59
+17:47:38 [Thread-0] INFO  Parent-Thread  59
+17:47:38 [Thread-2] INFO  ChildThread  60
+17:47:38 [Thread-0] INFO  Parent-Thread  60
+17:47:38 [Thread-2] INFO  ChildThread  61
+17:47:38 [Thread-0] INFO  Parent-Thread  61
+17:47:38 [Thread-2] INFO  ChildThread  62
+17:47:38 [Thread-0] INFO  Parent-Thread  62
+17:47:38 [Thread-2] INFO  ChildThread  63
+17:47:38 [Thread-2] INFO  ChildThread  64
+17:47:38 [Thread-0] INFO  Parent-Thread  63
+17:47:38 [Thread-2] INFO  ChildThread  65
+17:47:38 [Thread-0] INFO  Parent-Thread  64
+17:47:38 [Thread-2] INFO  ChildThread  66
+17:47:38 [Thread-0] INFO  Parent-Thread  65
+17:47:38 [Thread-2] INFO  ChildThread  67
+17:47:38 [Thread-0] INFO  Parent-Thread  66
+17:47:38 [Thread-2] INFO  ChildThread  68
+17:47:38 [Thread-0] INFO  Parent-Thread  67
+17:47:38 [Thread-2] INFO  ChildThread  69
+17:47:38 [Thread-0] INFO  Parent-Thread  68
+17:47:38 [Thread-2] INFO  ChildThread  70
+17:47:38 [Thread-2] INFO  ChildThread  71
+17:47:38 [Thread-0] INFO  Parent-Thread  69
+17:47:38 [Thread-2] INFO  ChildThread  72
+17:47:38 [Thread-0] INFO  Parent-Thread  70
+17:47:38 [Thread-2] INFO  ChildThread  73
+17:47:38 [Thread-0] INFO  Parent-Thread  71
+17:47:38 [Thread-2] INFO  ChildThread  74
+17:47:38 [Thread-0] INFO  Parent-Thread  72
+17:47:38 [Thread-2] INFO  ChildThread  75
+17:47:38 [Thread-0] INFO  Parent-Thread  73
+17:47:38 [Thread-2] INFO  ChildThread  76
+17:47:38 [Thread-0] INFO  Parent-Thread  74
+17:47:38 [Thread-2] INFO  ChildThread  77
+17:47:38 [Thread-0] INFO  Parent-Thread  75
+17:47:38 [Thread-2] INFO  ChildThread  78
+17:47:38 [Thread-0] INFO  Parent-Thread  76
+17:47:38 [Thread-2] INFO  ChildThread  79
+17:47:38 [Thread-0] INFO  Parent-Thread  77
+17:47:38 [Thread-2] INFO  ChildThread  80
+17:47:38 [Thread-0] INFO  Parent-Thread  78
+17:47:38 [Thread-2] INFO  ChildThread  81
+17:47:38 [Thread-0] INFO  Parent-Thread  79
+17:47:38 [Thread-2] INFO  ChildThread  82
+17:47:38 [Thread-0] INFO  Parent-Thread  80
+17:47:38 [Thread-2] INFO  ChildThread  83
+17:47:38 [Thread-0] INFO  Parent-Thread  81
+17:47:38 [Thread-2] INFO  ChildThread  84
+17:47:38 [Thread-0] INFO  Parent-Thread  82
+17:47:38 [Thread-2] INFO  ChildThread  85
+17:47:38 [Thread-0] INFO  Parent-Thread  83
+17:47:38 [Thread-0] INFO  Parent-Thread  84
+17:47:38 [Thread-2] INFO  ChildThread  86
+17:47:38 [Thread-0] INFO  Parent-Thread  85
+17:47:38 [Thread-2] INFO  ChildThread  87
+17:47:38 [Thread-0] INFO  Parent-Thread  86
+17:47:38 [Thread-2] INFO  ChildThread  88
+17:47:38 [Thread-0] INFO  Parent-Thread  87
+17:47:38 [Thread-2] INFO  ChildThread  89
+17:47:38 [Thread-0] INFO  Parent-Thread  88
+17:47:38 [Thread-2] INFO  ChildThread  90
+17:47:38 [Thread-0] INFO  Parent-Thread  89
+17:47:38 [Thread-2] INFO  ChildThread  91
+17:47:38 [Thread-0] INFO  Parent-Thread  90
+17:47:38 [Thread-2] INFO  ChildThread  92
+17:47:38 [Thread-0] INFO  Parent-Thread  91
+17:47:38 [Thread-2] INFO  ChildThread  93
+17:47:38 [Thread-0] INFO  Parent-Thread  92
+17:47:38 [Thread-2] INFO  ChildThread  94
+17:47:38 [Thread-0] INFO  Parent-Thread  93
+17:47:38 [Thread-2] INFO  ChildThread  95
+17:47:38 [Thread-0] INFO  Parent-Thread  94
+17:47:38 [Thread-2] INFO  ChildThread  96
+17:47:38 [Thread-0] INFO  Parent-Thread  95
+17:47:38 [Thread-2] INFO  ChildThread  97
+17:47:38 [Thread-0] INFO  Parent-Thread  96
+17:47:38 [Thread-2] INFO  ChildThread  98
+17:47:38 [Thread-0] INFO  Parent-Thread  97
+17:47:38 [Thread-2] INFO  ChildThread  99
+17:47:38 [Thread-0] INFO  Parent-Thread  98
+17:47:38 [Thread-0] INFO  Parent-Thread  99
+17:51:36 [Thread-0] INFO  Child thread line: 1
+17:51:37 [Thread-0] INFO  Child thread line: 2
+17:51:37 [Thread-0] INFO  Child thread line: 3
+17:51:37 [Thread-0] INFO  Child thread line: 4
+17:51:38 [main] INFO  Main thread line: 1
+17:51:38 [main] INFO  Main thread line: 2
+17:51:38 [main] INFO  Main thread line: 3
+17:51:38 [main] INFO  Main thread line: 4
+17:51:39 [main] INFO  Main thread finished after child.
+17:55:39 [Thread-9] INFO  5
+17:55:39 [Thread-6] INFO  5
+17:55:39 [Thread-5] INFO  5
+17:55:39 [Thread-2] INFO  5
+17:55:39 [Thread-3] INFO  5
+17:55:39 [Thread-8] INFO  5
+17:55:39 [Thread-7] INFO  5
+17:55:39 [Thread-0] INFO  5
+17:55:39 [Thread-1] INFO  5
+17:55:39 [Thread-4] INFO  5

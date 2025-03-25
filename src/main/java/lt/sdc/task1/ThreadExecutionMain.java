@@ -1,4 +1,4 @@
-package lt.sdc;
+package lt.sdc.task1;
 
 import java.util.concurrent.TimeUnit;
 

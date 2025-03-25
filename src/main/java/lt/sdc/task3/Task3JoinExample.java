@@ -7,27 +7,34 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
-import java.util.concurrent.*;
 
-public class ParamThreads {
-    private static final Logger logger = LogManager.getLogger(ParamThreads.class);
+public class Task3JoinExample {
+    private static final Logger logger = LogManager.getLogger(Task3JoinExample.class);
 
     public static void main(String[] args) throws Exception {
         Path path = Paths.get(ClassLoader.getSystemResource("task3_input.txt").toURI());
-        List<String> messages = Files.readAllLines(path);
-        ExecutorService executor = Executors.newFixedThreadPool(messages.size());
+        List<String> lines = Files.readAllLines(path);
+        int n = Integer.parseInt(lines.get(0).trim());
 
-        for (String message : messages) {
-            executor.submit(() -> {
-                for (int i = 0; i < 3; i++) {
-                    logger.info(Thread.currentThread().getName() + ": " + message);
-                    TimeUnit.MILLISECONDS.sleep(300);
+        Thread child = new Thread(() -> {
+            for (int i = 1; i <= n; i++) {
+                logger.info("Child thread line: " + i);
+                try {
+                    Thread.sleep(300);
+                } catch (InterruptedException e) {
+                    logger.error("Child thread interrupted", e);
                 }
-                return null;
-            });
+            }
+        });
+
+        child.start();
+        child.join();
+
+        for (int i = 1; i <= n; i++) {
+            logger.info("Main thread line: " + i);
+            Thread.sleep(300);
         }
 
-        executor.shutdown();
-        executor.awaitTermination(10, TimeUnit.SECONDS);
+        logger.info("Main thread finished after child.");
     }
 }
